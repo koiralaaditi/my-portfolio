@@ -1,0 +1,125 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 2px 110px;
+    width: 900;
+    height: 900;
+    margin-right: 20px;
+    
+
+  
+}
+main{
+    background-color: rgba(252, 251, 250, 0.932);
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    
+    
+}
+section{
+    padding: 5px 10px ;
+    height: 700px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 1rem;
+    font-weight: 1.5rem;
+    justify-items:center;
+    margin-right: 25px;
+       
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul a:hover{
+        background-color: rgb(188, 185, 185);
+        border-radius: 4px;
+        transition: ease-in-out 0.7s;
+        text-decoration: underline;
+        
+            }
+            #hu{
+                color: coral;
+            }
+            main img{
+            
+                
+            margin-right:40px;
+            padding:20px;
+            height: 450px;
+            width: 200px;
+            }
+           
+           
+            main h2{
+                font-size: 25px;
+                margin-top: 100px;
+                
+                
+                
+            }
+            main h2 span{
+                color:orange
+            }
+            main p{font-size: 1.2rem;
+                text-decoration: solid;
+                font-weight: bolder;
+
+            }
+            pre{
+                margin-right: 5px;
+                font-size: 12px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+           
+            #about{
+                background-color: coral;
+                box-shadow: 1px 1px 3px coral;
+                color: white;
+                border: none;
+                border-radius: 7px;
+                font-size: 1rem;
+                height: 25px;
+                width: 100px;
+                margin-top: 50px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #about:hover{
+                background-color: orangered;
+                cursor: pointer;
+                -webkit-box-shadow: -19px 7px 49px 0px rgba(21, 250, 231, 0.75);
+-moz-box-shadow: -19px 7px 49px 0px rgba(70, 86, 233, 0.75);
+box-shadow: -19px 7px 49px 0px rgba(55, 149, 238, 0.75);
+            }
+            div button{
+                color: white;
+                font-size: 1.3rem;
+                background-color: coral;
+                border-radius:80% ;
+                margin: 5px;
+                font-size: 1.1rem;
+                width: 50px;
+                height: 50px;
+                margin-top: 50px;
+            box-shadow: 1px 1px 2px coral;
+            border: 1px solid coral;
+        
+                
+                
+            
+                
+            }
+            div button:hover{background-color: orangered;}
+                
+
+            
